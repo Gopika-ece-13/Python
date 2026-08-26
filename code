@@ -1,6 +1,5 @@
 
 1 - Leap Year
-    if choice == 1:
         year = int(input("Enter year: "))
 
         if year % 400 == 0:
@@ -13,7 +12,7 @@
             print("Not a Leap Year")
 
  2 - Largest of Three Numbers
-    elif choice == 2:
+    
         a = int(input("Enter first number: "))
         b = int(input("Enter second number: "))
         c = int(input("Enter third number: "))
@@ -30,7 +29,7 @@
     
 
 3 - Grade
-    elif choice == 3:
+   
         score = int(input("Enter score: "))
 
         if score < 0 or score > 100:
@@ -49,7 +48,7 @@
    
 
  4 - Electricity Bill
-    elif choice == 4:
+  
         units = int(input("Enter units consumed: "))
 
         if units <= 100:
@@ -64,7 +63,7 @@
     
 
  5 - Vowel 
-    elif choice == 5:
+  
         ch = input("Enter a character: ")
 
         if len(ch) != 1 or not ch.isalpha():
