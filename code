@@ -1,6 +1,5 @@
 
-
-    # Question 1 - Leap Year
+1 - Leap Year
     if choice == 1:
         year = int(input("Enter year: "))
 
@@ -13,7 +12,7 @@
         else:
             print("Not a Leap Year")
 
-    # Question 2 - Largest of Three Numbers
+ 2 - Largest of Three Numbers
     elif choice == 2:
         a = int(input("Enter first number: "))
         b = int(input("Enter second number: "))
@@ -28,7 +27,9 @@
         else:
             print("Largest =", c)
 
-    # Question 3 - Grade
+    
+
+3 - Grade
     elif choice == 3:
         score = int(input("Enter score: "))
 
@@ -45,7 +46,9 @@
         else:
             print("Grade F")
 
-    # Question 4 - Electricity Bill
+   
+
+ 4 - Electricity Bill
     elif choice == 4:
         units = int(input("Enter units consumed: "))
 
@@ -58,7 +61,9 @@
 
         print("Total Bill = ₹", bill)
 
-    # Question 5 - Vowel / Consonant
+    
+
+ 5 - Vowel 
     elif choice == 5:
         ch = input("Enter a character: ")
 
@@ -69,10 +74,4 @@
         else:
             print("Consonant")
 
-    # Exit
-    elif choice == 6:
-        print("Program ended.")
-        break
-
-    else:
-        print("Invalid choice")
+   
