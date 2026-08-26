@@ -1,4 +1,4 @@
-grade_score.py
+grade
 
 score = int(input("Enter the score: "))
 
