@@ -1,4 +1,4 @@
-leap_year.py
+leap year
 year = int(input("Enter a year: "))
 
 if year % 400 == 0:
